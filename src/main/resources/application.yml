@@ -71,4 +71,4 @@ springdoc:
     path: /openapi/swagger-ui.html
 ############## Application properties ###############
 restservice: 
-  msg: "This is a message from local environment"
+  msg: "LOCAL ENVIRONMENT"

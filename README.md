@@ -31,7 +31,7 @@ mvn -X clean package -Pdocument
 ```
 *  For generate native image execute:
 ```
-mvn -X clean spring-boot:native -Pnative
+mvn -X clean spring-boot:build-image -Pnative
 ```
 
 ## Help

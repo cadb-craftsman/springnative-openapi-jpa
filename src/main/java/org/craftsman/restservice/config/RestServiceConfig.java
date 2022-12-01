@@ -33,11 +33,7 @@ public class RestServiceConfig {
 
 	@Bean
 	public RestServiceFactoryMapperImpl getFactoryMapper() {
-		return new RestServiceFactoryMapperImpl();
-	}
-	
-	@Bean
-	public void getMessage() {
 		log.warn("Properties value of: " + msg);
+		return new RestServiceFactoryMapperImpl();
 	}
 }
